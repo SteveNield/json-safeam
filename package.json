@@ -1,0 +1,23 @@
+{
+  "name": "parse-safejson",
+  "version": "1.0.0",
+  "description": "Safe parser for JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenield/json-safeam.git"
+  },
+  "author": "Steve Nield - Winter Softworks Limited - steve@wintersoftworks.co.uk - https://stevenield.github.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenield/json-safeam/issues"
+  },
+  "homepage": "https://github.com/stevenield/json-safeam#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
