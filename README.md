@@ -5,4 +5,18 @@ Safe parser for JSON.  Takes a string argument which may or may not be a string 
 `npm install --save parse-safejson`
 
 ## Usage
-See `test.js` for usage.
+```
+var parseJson = require('parse-safejson');
+
+const jsonStr = '{ "name": "john bonham", "occupation": "drummer" }';
+
+const parsedJson = parseJson(jsonStr);
+
+console.log(parsedJson);
+//Output:
+//{ 
+//  res: { name: 'john bonham', occupation: 'drummer' },
+//  raw: '{ "name": "john bonham", "occupation": "drummer" }',
+//  success: true 
+//}
+```
