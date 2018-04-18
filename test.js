@@ -1,7 +1,6 @@
-var jsonSafeParse = require('./index.js'),
-    chai = require('chai');
+require('winter-test-setup')
 
-const should = chai.should();
+var jsonSafeParse = require('./index.js');
 
 describe('jsonSafeParse', function(){
   it('exists', function(){
