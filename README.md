@@ -10,9 +10,7 @@ var parseJson = require('parse-safejson');
 
 const jsonStr = '{ "name": "john bonham", "occupation": "drummer" }';
 
-let parsed = parseJson(jsonStr);
-
-console.log(parsed);
+console.log(parseJson(jsonStr));
 
 // >> Output:
 // >> {
@@ -23,9 +21,7 @@ console.log(parsed);
 
 const badJsonStr = '{ "a" "b":} }';
 
-parsed = parseJson(badJsonStr);
-
-console.log(parsed);
+console.log(parseJson(badJsonStr));
 
 // >> Output:
 // >> {
