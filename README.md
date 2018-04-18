@@ -41,3 +41,9 @@ console.log(parseJson(badJsonStr));
 // >> }
 
 ```
+
+## Tests
+```
+npm install
+npm test
+```
